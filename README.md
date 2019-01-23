@@ -35,3 +35,4 @@ This method uses pairwise distance instead of Euclidian distance to cluster dime
 
 Nearest neighbor search was done by K-d tree, which is not the only method to do find the nearest neighbors.
 
+Future work should be on using BLSTM(http://www.aclweb.org/anthology/P16-2034) and Naive Base SVM(https://www.aclweb.org/anthology/P12-2018) to classify labeled documents, whether if they are the ones causing "disturbance to eco-system on net" or "bots", which is the supervised learning part of the project. In order to use the NBSVM and the vectorization method suggested in Simple-but-Hard-to-Beat-Baseline paper, we need to train our own bi-gram vectors using GloVe codebase given in the above github repo.
